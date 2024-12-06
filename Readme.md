@@ -9,7 +9,7 @@ This guide explains how to set up and configure **PHPMailer** for your project t
 ---
 
 ### **Requirements**
-- PHP version 7.2 or higher
+- PHP 7+
 - Composer for dependency management
 - Access to a Gmail account with an app password
 
