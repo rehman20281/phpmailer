@@ -1,5 +1,3 @@
-Here's a detailed explanation you can use in your Git README file to configure PHPMailer in a project:
-
 ---
 
 ## Configuration Guide for PHPMailer
@@ -35,8 +33,11 @@ This guide explains how to set up and configure **PHPMailer** for your project t
    - Log in to your Google account.
    - Enable **2-Step Verification** under [Security](https://myaccount.google.com/security).
    - Generate an **App Password**:
-     - Go to *Security > App Passwords*.
-     - Select an app (e.g., "Mail") and a device (e.g., "Other").
+     - Go to *Security > App Passwords*. if not found go below link 
+      ```
+       https://myaccount.google.com/apppasswords
+       ```
+     - Create App Name 
      - Use the generated password in your script.
 
 2. **Write a PHPMailer Configuration Script**:
@@ -104,7 +105,3 @@ This project uses PHPMailer under the [LGPL License](https://github.com/PHPMaile
 ---
 
 This README section should guide users step-by-step in configuring PHPMailer within the project!
-# Generate App Password
-```
-https://myaccount.google.com/apppasswords
-```
